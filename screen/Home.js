@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, Image, TouchableOpacity, ScrollView } from 'react-native'
 import iconberdoa from '../image/iconberdoa.png'
 
-const Home = () => {
+const Home = ({navigation}) => {
     return (
         <View style={{
             justifyContent: 'center',
@@ -37,7 +37,8 @@ const Home = () => {
                         height: 40,
                         width: 150,
                         borderRadius: 5,
-                    }}>
+                        
+                    }} onPress={() => navigation.navigate('Doa')}>
                         <Text style={{
                             fontSize: 15,
                             fontWeight: '500',
