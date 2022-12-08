@@ -23,42 +23,44 @@ const DaftarDoa = ({navigation}) => {
           }}>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa1')}>
-              <Text style={styles.textdoa}>Doa Sebelum Memulai Aktivitas</Text>
+              <Text style={styles.textdoa}>
+                1.Doa Sebelum Memulai Aktivitas
+              </Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa2')}>
-              <Text style={styles.textdoa}>Doa Sebelum Tidur</Text>
+              <Text style={styles.textdoa}>2. Doa Sebelum Tidur</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa3')}>
-              <Text style={styles.textdoa}>Doa Bangun Tidur</Text>
+              <Text style={styles.textdoa}>3. Doa Bangun Tidur</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa4')}>
-              <Text style={styles.textdoa}>Doa Masuk Kamar Mandi</Text>
+              <Text style={styles.textdoa}>4. Doa Masuk Kamar Mandi</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa5')}>
-              <Text style={styles.textdoa}>Doa Sebelum Makan</Text>
+              <Text style={styles.textdoa}>5. Doa Sebelum Makan</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa6')}>
-              <Text style={styles.textdoa}>Doa Setelah Makan</Text>
+              <Text style={styles.textdoa}>6. Doa Setelah Makan</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa7')}>
-              <Text style={styles.textdoa}>Doa Keluar Rumah</Text>
+              <Text style={styles.textdoa}>7. Doa Keluar Rumah</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.listdoa}>
             <TouchableOpacity onPress={() => navigation.navigate('Doa8')}>
-              <Text style={styles.textdoa}>Doa Masuk Rumah</Text>
+              <Text style={styles.textdoa}>8. Doa Masuk Rumah</Text>
             </TouchableOpacity>
           </View>
         </ScrollView>
@@ -76,15 +78,15 @@ const styles = StyleSheet.create({
     height: '27%',
   },
   imageheader: {
-    height: 100,
-    width: 100,
-    marginTop: 10,
-    marginLeft: 10,
+    height: 125,
+    width: 125,
+    marginTop: 20,
+    marginLeft: 20,
   },
   titleheader: {
     marginLeft: 10,
-    marginTop: 10,
-    fontSize: 18,
+    marginTop: 20,
+    fontSize: 20,
     fontWeight: '500',
     color: '#ffffff',
   },

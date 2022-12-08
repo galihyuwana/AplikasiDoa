@@ -29,6 +29,11 @@ const styles = StyleSheet.create({
   containertitle: {
     marginTop: 50,
     marginBottom: 30,
+    paddingHorizontal: 10,
+    paddingBottom: 5,
+    alignSelf: 'center',
+    borderBottomWidth: 3,
+    borderBottomColor: '#5172AD',
   },
   title: {
     textAlign: 'center',

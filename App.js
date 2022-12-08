@@ -14,6 +14,7 @@ import Doa5 from './screen/Doa/Doa5';
 import Doa6 from './screen/Doa/Doa6';
 import Doa7 from './screen/Doa/Doa7';
 import Doa8 from './screen/Doa/Doa8';
+import About from './screen/About';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +26,16 @@ function App() {
           name="Home"
           component={Home}
           options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="About"
+          component={About}
+          options={{
+            headerShown: true,
+            headerStyle: {
+              backgroundColor: '#5172AB',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa"
