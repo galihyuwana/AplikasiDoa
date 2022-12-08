@@ -34,42 +34,90 @@ function App() {
         <Stack.Screen
           name="Doa1"
           component={Doa1}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa2"
           component={Doa2}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa3"
           component={Doa3}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa4"
           component={Doa4}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa5"
           component={Doa5}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa6"
           component={Doa6}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa7"
           component={Doa7}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
         <Stack.Screen
           name="Doa8"
           component={Doa8}
-          options={{headerShown: false}}
+          options={{
+            headerShown: true,
+            title: 'Doa Harian',
+            headerStyle: {
+              backgroundColor: '#5172AD',
+            },
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
